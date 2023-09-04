@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import { H1, Button } from './components/s1';
 
 function App() {
   return (
     <>
-      <h1>hey</h1>
+      <Button>
+        Chat now
+      </Button>
     </>
   );
 }
