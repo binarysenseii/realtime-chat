@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { H1, Button } from './components/s1';
+import { H1, Button,Card } from './components/s1';
 
 function App() {
   return (
@@ -8,6 +8,12 @@ function App() {
       <Button>
         Chat now
       </Button>
+      <Card>
+        
+        <Button>
+          Chat now
+        </Button>
+      </Card>
     </>
   );
 }

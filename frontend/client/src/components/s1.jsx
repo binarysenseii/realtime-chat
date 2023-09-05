@@ -50,8 +50,18 @@ export function H6({children,styles}){
 export function Button({children}){
     return(
         <>
-        <button className="bg-green-500 text-white p-4 font-bold text-lg">{children}</button>
+        <button className="bg-purple-500 text-white p-3 rounded-md font-bold text-lg m-4">{children}</button>
         </>
+    )
+}
+
+
+//Card component
+export function Card({children}){
+    return(
+        <div className="p-4 m-4 bg-slate-200 hover:shadow-sm shadow-slate-400  inline-block rounded-lg">
+            {children}
+        </div>
     )
 }
 
